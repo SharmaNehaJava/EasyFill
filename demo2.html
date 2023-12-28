@@ -1,0 +1,117 @@
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgb(255, 255, 255);  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/sharda_pic.jpg");
+  backdrop-filter: blur(2px)
+  /* background-position-y: 100%;
+  background-position-x: 100%; */
+  /* background: #e0e0e0; */
+  /* position: relative; */
+  
+}  
+.container { 
+    /* border-color: #4CAF50;  */
+   
+    width: 60%;
+    padding-left: 6%;  
+   background-color: #ffffff;
+  
+  position: absolute;
+  left: 20%;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 20%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: rgb(200, 254, 255);  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.btn {  
+    /* background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;   */
+  text-align: center;
+}  
+.submitbtn:hover {  
+  opacity: 1;  
+}  
+
+.logo{
+
+  margin: auto;
+  width:    14%;
+  padding: 20px;
+}
+
+</style>  
+</head>  
+
+
+<body>  
+  
+    <div class="logo" id="logo">
+        <img src="/logo.png" alt="MyOnlineMeal.com"  width="200" 
+        height="80" class="center">
+    </div>
+    <!-- <hr style="height:2px;border-width:0;color:gray;background-color:gray"> -->
+
+<form>  
+  <div class="container">  
+  <center>  <h1> Create Account</h1> </center>  
+  <hr>  
+<div class="gmail">    
+    <input type="text" name="gmail" placeholder= "gmail" size="15" width="10" required  /> 
+    
+    <select>  
+    <option value="ug">@ug.sharda.ac.in</option>  
+    <option value="pg">@pg.sharda.ac.in</option>  
+    <option value="sharda">@sharda.ac.in</option>   
+    </select>
+</div>
+
+<div>   
+<label> Enter password : </label>   
+<input type="password" name="pass" placeholder=":)" size="15" required />   
+<label> Confirm password : </label>    
+<input type="password" name="pass" placeholder=":)" size="15"required />   
+</div>
+<div class="btn">
+    <button type="submit" class="sendOTP" >SEND OTP</button> 
+</div> 
+    <label> Confirm OTP : </label>    
+    <input type="password" name="OTP" placeholder=":)" size="15" /> 
+<div class="btn">
+    <button type="submit" class="acreateAccount">Create Account</button>
+    <br>
+    
+</div> 
+    <button type="submit" class="back">BACK</button>  
+ 
+</form>  
+</body>  
+</html>  
